@@ -6,3 +6,5 @@ echo "Hi India"
 echo "Hi Andhra people"
 
 echo "Enter your name"
+read name
+echo "Entered name: $name"
