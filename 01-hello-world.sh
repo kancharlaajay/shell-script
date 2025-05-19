@@ -6,5 +6,5 @@ echo "Hi India"
 echo "Hi Andhra people"
 
 echo "Enter your name"
-read name
+read -s name
 echo "Entered name: $name"
