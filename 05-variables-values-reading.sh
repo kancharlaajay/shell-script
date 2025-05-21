@@ -1,12 +1,12 @@
 #!/bin/bash
 echo "What is your birthday date::"
-read -s date
-echo "Entered Date: $date"
+read -s DATE
+echo "Entered Date: $DATE"
 
 echo "What is your birthday month::"
-read -s month
-echo "Entered Date: $month"
+read -s MONTH
+echo "Entered Date: $MONTH"
 
 echo "What is your birthday year::"
-read -s year
-echo "Entered Date: $year"
+read -s YEAR
+echo "Entered Date: $YEAR"
