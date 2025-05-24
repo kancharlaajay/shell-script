@@ -9,6 +9,7 @@ then                                           #if ID=0 that means its root user
 fi
 
 dnf list installed mysql
+
 if [ $? -ne 0 ]                            # "$?"--->It will show the previouse command exit status | if exit status is 0 it means the command is success and other than 1 its failed.
 then
     dnf install mysql -y
@@ -24,6 +25,7 @@ else
 fi
 
 dnf list installed nginx
+
 if [ $? -ne 0 ]
 then 
     dnf install nginx -y
