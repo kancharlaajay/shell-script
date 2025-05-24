@@ -18,6 +18,7 @@ then
         exit 1                                 # Exit will end the scirpt
     else
         echo "Installing MYSQL.......Success"
+    fi
 else
     echo "MYSQL is already installed"
 fi
@@ -32,6 +33,7 @@ then
         exit 1
     else
         echo "Installing NGIX.......Success"
+    fi
 else
     echo "NGINX is already installed"
 fi
